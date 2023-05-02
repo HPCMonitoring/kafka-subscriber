@@ -1,0 +1,26 @@
+{
+  "name": "kafka-subscriber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HPCMonitoring/kafka-subscriber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HPCMonitoring/kafka-subscriber/issues"
+  },
+  "homepage": "https://github.com/HPCMonitoring/kafka-subscriber#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.7.0",
+    "dotenv": "^16.0.3",
+    "kafkajs": "^2.2.4"
+  }
+}
